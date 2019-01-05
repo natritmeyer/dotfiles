@@ -1,0 +1,14 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[user]
+	email = nat@natontesting.com
+	name = Nat Ritmeyer
+[core]
+	editor = nvim
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+[color]
+	ui = true
