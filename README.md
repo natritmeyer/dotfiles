@@ -14,7 +14,7 @@ The easiest way to manage these dot files is to deploy them using [GNU Stow](htt
 ### git
 
 * `.gitconfig` - Normal gitconfig
-* `.gitigore_global` - Stuff I want ignoring everywhere
+* `.gitigore_global` - Stuff I want ignoring everywhere (`.gitconfig` points to this file)
 
 ### jabba
 
