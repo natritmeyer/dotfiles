@@ -1,0 +1,3 @@
+# Use if it's not possible to update the local cacerts
+MAVEN_OPTS="-Dmaven.wagon.http.ssl.insecure=true"
+
