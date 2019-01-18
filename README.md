@@ -31,3 +31,7 @@ The easiest way to manage these dot files is to deploy them using [GNU Stow](htt
 3. `stow jabba`
 4. Set default jdk: `jabba alias default openjdk@1.11.0-1`
 
+### maven
+
+* `.mavenrc` set up to ignore ssl errors from maven repos with bad certs - use only if `cacerts` can't be updated with relevant self-signed cert
+
