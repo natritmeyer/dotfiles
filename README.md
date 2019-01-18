@@ -11,6 +11,10 @@ The easiest way to manage these dot files is to deploy them using [GNU Stow](htt
 
 ## Notes
 
+### editorconfig
+
+* Set up to work with checkstyle's `google_checks.xml`
+
 ### git
 
 * `.gitconfig` - Normal gitconfig
