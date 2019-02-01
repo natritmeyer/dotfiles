@@ -68,4 +68,3 @@ let g:airline_powerline_fonts=1
 
 "ctrlp
 let g:ctrlp_show_hidden=1
-
