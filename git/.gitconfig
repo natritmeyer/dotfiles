@@ -1,0 +1,29 @@
+[user]
+	name = Nat Ritmeyer
+	email = 217265+natritmeyer@users.noreply.github.com
+
+[core]
+  editor = vim
+
+[init]
+	defaultBranch = main
+
+[safe]
+  directory = *
+
+[diff]
+	algorithm = histogram
+
+[push]
+	default = simple
+	autoSetupRemote = true
+	followTags = true
+
+[tag]
+	sort = version:refname
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
