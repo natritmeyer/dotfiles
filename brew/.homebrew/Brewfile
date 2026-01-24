@@ -14,6 +14,7 @@ brew "curl"
 brew "netcat"
 brew "nmap"
 brew "gnupg"
+cask "mitmproxy"
 
 # javascript
 
