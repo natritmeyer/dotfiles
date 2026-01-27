@@ -8,6 +8,7 @@ brew "git"
 brew "tree"
 brew "wget"
 brew "curl"
+brew "nvim"
 
 # infosec
 
