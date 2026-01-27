@@ -16,6 +16,11 @@ brew "nmap"
 brew "gnupg"
 cask "mitmproxy"
 
+# api clients
+
+cask "bruno"
+cask "postman"
+
 # javascript
 
 brew "node"
