@@ -2,6 +2,10 @@
 
 eval "$(starship init zsh)"
 
+# lsd
+
+alias ls='lsd'
+
 
 # sdkman
 
