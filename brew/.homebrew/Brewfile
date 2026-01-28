@@ -9,6 +9,7 @@ brew "tree"
 brew "wget"
 brew "curl"
 brew "nvim"
+brew "neofetch"
 
 # infosec
 
