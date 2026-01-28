@@ -6,7 +6,6 @@ eval "$(starship init zsh)"
 
 alias ls='lsd'
 
-
 # sdkman
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
