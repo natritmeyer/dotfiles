@@ -34,4 +34,4 @@ First, install `stow`:
 1. `$ brew bundle -g`
 
 ## Stow the rest of the packages
-1. `$ stow brew git vscode zsh`
+1. `$ stow git nvim vscode zsh`
