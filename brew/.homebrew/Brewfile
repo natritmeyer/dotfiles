@@ -13,7 +13,6 @@ brew "fastfetch"
 
 # infosec
 
-brew "netcat"
 brew "nmap"
 brew "gnupg"
 cask "mitmproxy"
