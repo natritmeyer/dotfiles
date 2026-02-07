@@ -17,6 +17,9 @@ brew "netcat"
 brew "nmap"
 brew "gnupg"
 cask "mitmproxy"
+cask "proton-mail"
+cask "proton-drive"
+cask "protonvpn"
 
 # api clients
 
