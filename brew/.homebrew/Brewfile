@@ -15,6 +15,7 @@ brew "fastfetch"
 
 brew "nmap"
 brew "gnupg"
+cask "gpg-suite-no-mail"
 cask "mitmproxy"
 cask "proton-mail"
 cask "proton-drive"
@@ -28,6 +29,7 @@ cask "postman"
 # javascript
 
 brew "node"
+brew "jq"
 
 # GenAI
 
