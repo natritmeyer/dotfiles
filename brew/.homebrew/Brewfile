@@ -15,11 +15,17 @@ brew "fastfetch"
 
 brew "nmap"
 brew "gnupg"
+brew "gpgme"
 cask "gpg-suite-no-mail"
 cask "mitmproxy"
 cask "proton-mail"
 cask "proton-drive"
 cask "protonvpn"
+
+# ./configure -> make -> make install
+
+brew "gnutls"
+brew "readline"
 
 # api clients
 
