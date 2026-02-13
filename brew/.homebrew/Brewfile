@@ -10,6 +10,7 @@ brew "wget"
 brew "curl"
 brew "nvim"
 brew "fastfetch"
+brew "fd"
 
 # infosec
 
