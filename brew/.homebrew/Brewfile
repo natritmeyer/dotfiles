@@ -8,9 +8,16 @@ brew "git"
 brew "tree"
 brew "wget"
 brew "curl"
-brew "nvim"
 brew "fastfetch"
+
+# nvim and dependencies
+
+brew "nvim"
 brew "fd"
+brew "ripgrep"
+brew "fzf"
+brew "ast-grep"
+brew "luarocks"
 
 # infosec
 
