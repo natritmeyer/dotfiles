@@ -23,6 +23,7 @@ brew "luarocks"
 
 brew "nmap"
 brew "gnupg"
+brew "pinentry"
 brew "gpgme"
 cask "gpg-suite-no-mail"
 cask "mitmproxy"
@@ -47,7 +48,7 @@ brew "jq"
 
 # GenAI
 
-brew "ollama"
+cask "ollama-app"
 
 # python
 
@@ -66,7 +67,7 @@ cask "virtualbox"
 
 # terminal
 
-cask "iterm2"
+cask "ghostty"
 brew "starship"
 cask "font-fira-code"
 cask "font-jetbrains-mono-nerd-font"
