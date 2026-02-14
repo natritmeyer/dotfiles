@@ -60,6 +60,10 @@ cask "pycharm"
 
 brew "rust"
 
+# go
+
+brew "go"
+
 # virtualization
 
 brew "qemu"
