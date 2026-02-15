@@ -29,6 +29,7 @@
 #font-family = JetBrainsMono NFM Regular
 cursor-style = block
 cursor-style-blink = false
+window-inherit-working-directory = false
 # window-padding-x = 2
 #
 # # Spacing around the equals sign does not matter.
