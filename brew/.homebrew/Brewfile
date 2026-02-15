@@ -37,6 +37,7 @@ brew "autogen"
 brew "automake"
 brew "gnutls"
 brew "readline"
+brew "texinfo"
 
 # api clients
 
