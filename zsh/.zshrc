@@ -5,6 +5,7 @@ eval "$(starship init zsh)"
 # lsd
 
 alias ls='lsd'
+alias ll='lsd -alF'
 
 # gpg
 
