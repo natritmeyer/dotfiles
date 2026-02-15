@@ -23,7 +23,7 @@ brew "luarocks"
 
 brew "nmap"
 brew "gnupg"
-brew "pinentry"
+brew "pinentry-mac"
 brew "gpgme"
 cask "gpg-suite-no-mail"
 cask "mitmproxy"
