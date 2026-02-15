@@ -49,6 +49,8 @@ brew "jq"
 # GenAI
 
 cask "ollama-app"
+tap "anomalyco/tap"
+brew "anomalyco/tap/opencode"
 
 # python
 
