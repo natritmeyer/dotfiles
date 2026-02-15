@@ -83,13 +83,17 @@ cask "font-jetbrains-mono-nerd-font"
 
 # apps
 
-cask "google-chrome"
 cask "audacity"
 cask "calibre"
-cask "firefox"
 cask "libreoffice"
 cask "steam"
 cask "transmission"
+
+# browsers
+
+cask "duckduckgo"
+cask "google-chrome"
+cask "firefox"
 
 # downloads
 
