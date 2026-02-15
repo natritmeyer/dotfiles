@@ -30,8 +30,10 @@ First, install `stow`:
 1. `$ stow brew`
 
 ## Install components listed in the Brewfile
+
 1. `$ cd ~`
 1. `$ brew bundle -g`
 
 ## Stow the rest of the packages
-1. `$ stow git nvim vscode zsh`
+
+1. `$ stow git gpg nvim vscode zsh`
