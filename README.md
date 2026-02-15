@@ -36,4 +36,4 @@ First, install `stow`:
 
 ## Stow the rest of the packages
 
-1. `$ stow git gpg nvim vscode zsh`
+1. `$ stow ghostty git gpg nvim vscode zsh`
