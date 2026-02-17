@@ -25,6 +25,9 @@
 [diff]
 	algorithm = histogram
 
+[pull]
+  ff = only
+
 [push]
 	default = simple
 	autoSetupRemote = true
