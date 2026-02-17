@@ -7,10 +7,6 @@ eval "$(starship init zsh)"
 alias ls='lsd'
 alias ll='lsd -alF'
 
-# gpg
-
-export GPG_TTY=$(tty)
-
 # sdkman
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
