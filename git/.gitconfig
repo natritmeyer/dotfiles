@@ -36,6 +36,9 @@
 [tag]
 	sort = version:refname
 
+[help]
+  autoCorrect = never
+
 [alias]
 	co = checkout
 	br = branch
