@@ -2,6 +2,18 @@
 
 Managed with [GNU Stow](https://www.gnu.org/software/stow/)
 
+# Packages
+
+* `homebrew` - Install all the things
+* `ghostty` - Shiny new terminal
+* `git` - A gitconfig that works for me
+* `gpg` - points at `pinentry-mac`
+* `nvim` - My Lazyvim config
+* `opencode` - Configuring my pet AI
+* `stow` - make stow work everywhere
+* `vscode` - I hate this thing
+* `zsh` - My starship config
+
 # 🔧 Dependencies
 
 Install these first:
