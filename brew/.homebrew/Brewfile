@@ -104,6 +104,10 @@ brew "yt-dlp"
 
 cask "intellij-idea-ce"
 
+# xcode
+
+brew "xcodegen"
+
 # text editors
 
 cask "visual-studio-code"
