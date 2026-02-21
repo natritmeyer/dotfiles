@@ -7,10 +7,10 @@ Managed with [GNU Stow](https://www.gnu.org/software/stow/)
 * `homebrew` - Install all the things
 * `ghostty` - Shiny new terminal
 * `git` - A gitconfig that works for me
-* `gpg` - points at `pinentry-mac`
+* `gpg` - Points at `pinentry-mac`
 * `nvim` - My Lazyvim config
 * `opencode` - Configuring my pet AI
-* `stow` - make stow work everywhere
+* `stow` - Make stow work everywhere
 * `vscode` - Not my favourite editor
 * `zsh` - My starship config
 
