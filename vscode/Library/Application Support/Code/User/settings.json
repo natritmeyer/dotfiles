@@ -6,5 +6,6 @@
     "telemetry.telemetryLevel": "off",
     "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": false,
-    "workbench.tree.renderIndentGuides": "always"
+    "workbench.tree.renderIndentGuides": "always",
+    "C_Cpp.default.compilerPath": "/usr/bin/clang"
 }
