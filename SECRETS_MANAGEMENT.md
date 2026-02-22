@@ -7,7 +7,7 @@ Don't add secrets to dotfiles; instead use macOS's built-in `security` command t
 Store a secret:
 
 ```sh
-$ security add-generic-password -a "$USER" -s 'MY_SECRET' -w 's3cr3t'
+security add-generic-password -a "$USER" -s 'MY_SECRET' -w 's3cr3t'
 ```
 
 Retrieve a generic secret (e.g. in your `.zshrc` file):
