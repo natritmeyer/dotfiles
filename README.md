@@ -1,18 +1,18 @@
 # 🛋️ natritmeyer's dotfiles
 
-Managed with [GNU Stow](https://www.gnu.org/software/stow/)
+Managed with [📦 GNU Stow](https://www.gnu.org/software/stow/)
 
 # Packages
 
-* `homebrew` - Install all the things
-* `ghostty` - Shiny new terminal
-* `git` - A gitconfig that works for me
-* `gpg` - Points at `pinentry-mac`
-* `nvim` - My Lazyvim config
-* `opencode` - Configuring my pet AI
-* `stow` - Make stow work everywhere
-* `vscode` - Not my favourite editor
-* `zsh` - My starship config
+* 🍺 `brew` - Install all the things
+* 👻 `ghostty` - Config for shiny new terminal
+* 💾 `git` - A gitconfig that works for me
+* 🔐 `gpg` - Points gpg at `pinentry-mac`
+* 👨‍💻 `nvim` - My Lazyvim config
+* ✨ `opencode` - Config for my pet AI
+* 📦 `stow` - Make stow work everywhere
+* 📝 `vscode` - Not my favourite editor
+* 💻 `zsh` - My starship config
 
 # 🔧 Dependencies
 
