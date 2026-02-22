@@ -112,6 +112,10 @@ brew "xcodegen"
 
 cask "visual-studio-code"
 
+# databases
+
+cask "db-browser-for-sqlite"
+
 # vscode plugins
 
 vscode "eamodio.gitlens"
