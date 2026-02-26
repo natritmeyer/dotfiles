@@ -17,30 +17,33 @@
   gpgsign = true
 
 [init]
-	defaultBranch = main
+  defaultBranch = main
 
 [safe]
   directory = *
 
 [diff]
-	algorithm = histogram
+  algorithm = histogram
 
 [pull]
   ff = only
 
 [push]
-	default = simple
-	autoSetupRemote = true
-	followTags = true
+  default = simple
+  autoSetupRemote = true
+  followTags = true
+
+[branch]
+  sort = -committerdate
 
 [tag]
-	sort = version:refname
+  sort = version:refname
 
 [help]
   autoCorrect = never
 
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
