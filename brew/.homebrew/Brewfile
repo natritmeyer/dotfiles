@@ -54,6 +54,7 @@ brew "jq"
 cask "ollama-app"
 tap "anomalyco/tap"
 brew "anomalyco/tap/opencode"
+brew "llmfit"
 
 # python
 
