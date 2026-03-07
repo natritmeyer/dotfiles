@@ -123,6 +123,10 @@ vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
 vscode "rust-lang.rust-analyzer"
 vscode "tamasfe.even-better-toml"
-vscode "zhuangtongfa.material-theme"
 vscode "yzhang.markdown-all-in-one"
 vscode "ms-vscode.cpptools-extension-pack"
+
+# vscode themes
+
+vscode "zhuangtongfa.material-theme"
+vscode "catppuccin.catppuccin-vsc"
