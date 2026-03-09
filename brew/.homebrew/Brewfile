@@ -77,6 +77,7 @@ cask "virtualbox"
 
 # terminal
 
+cask "iterm2"
 cask "ghostty"
 brew "starship"
 cask "font-fira-code"
