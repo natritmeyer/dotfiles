@@ -5,10 +5,22 @@
 
 [core]
   editor = vim
+  pager = delta
 
 [gpg]
   program = gpg
   format = openpgp
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true
+  side-by-side = true
+  line-numbers = true
+
+[merge]
+  conflictStyle = zdiff3
 
 [commit]
   gpgsign = true

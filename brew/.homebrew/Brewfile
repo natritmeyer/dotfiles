@@ -10,6 +10,13 @@ brew "wget"
 brew "curl"
 brew "fastfetch"
 
+# git
+
+brew "git"
+brew "git-gui"
+brew "git-delta"
+
+
 # nvim and dependencies
 
 brew "nvim"
