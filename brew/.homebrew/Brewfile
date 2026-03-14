@@ -77,6 +77,10 @@ brew "rust"
 
 brew "go"
 
+# ruby
+
+brew "ruby"
+
 # virtualization
 
 brew "qemu"
