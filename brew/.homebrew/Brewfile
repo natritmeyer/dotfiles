@@ -58,11 +58,6 @@ cask "postman"
 
 cask "transmission"
 
-# javascript
-
-brew "node"
-brew "jq"
-
 # GenAI
 
 cask "ollama-app"
@@ -70,21 +65,28 @@ tap "anomalyco/tap"
 brew "anomalyco/tap/opencode"
 brew "llmfit"
 
-# python
+# programming languages
+
+## javascript
+
+brew "node"
+brew "jq"
+
+## python
 
 brew "pyenv"
 brew "python@3.14"
 cask "pycharm"
 
-# rust
+## rust
 
 brew "rust"
 
-# go
+## go
 
 brew "go"
 
-# ruby
+## ruby
 
 brew "ruby"
 
@@ -122,19 +124,17 @@ brew "yt-dlp"
 
 # IDEs
 
+## IntelliJ
+
 cask "intellij-idea-ce"
 
-# xcode
+## xcode
 
 brew "xcodegen"
 
 # text editors
 
 cask "visual-studio-code"
-
-# databases
-
-cask "db-browser-for-sqlite"
 
 # vscode plugins
 
@@ -149,3 +149,7 @@ vscode "ms-vscode.cpptools-extension-pack"
 
 vscode "zhuangtongfa.material-theme"
 vscode "catppuccin.catppuccin-vsc"
+
+# databases
+
+cask "db-browser-for-sqlite"
