@@ -54,6 +54,10 @@ brew "texinfo"
 cask "bruno"
 cask "postman"
 
+# downloads
+
+cask "transmission"
+
 # javascript
 
 brew "node"
