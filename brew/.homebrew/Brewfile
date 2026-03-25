@@ -134,6 +134,7 @@ brew "xcodegen"
 
 # text editors
 
+cask "zed"
 cask "visual-studio-code"
 
 # vscode plugins
