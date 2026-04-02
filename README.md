@@ -12,6 +12,7 @@ Managed with 📦 [GNU Stow](https://www.gnu.org/software/stow/)
 * ✨ `opencode` - Config for my pet AI
 * 📦 `stow` - Make stow work everywhere
 * 📝 `vscode` - Not my favourite editor
+* 📄 `zed` - My favourite editor
 * 💻 `zsh` - My starship config
 
 # 🔧 Dependencies
@@ -50,4 +51,4 @@ First, install `stow`:
 
 ## 📦 Stow the rest of the packages
 
-1. `$ stow ghostty git gpg nvim vscode zsh`
+1. `$ stow ghostty git gpg nvim vscode zed zsh`
