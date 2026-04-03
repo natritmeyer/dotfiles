@@ -1,12 +1,12 @@
 {
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.tree.indent": 18,
+  "C_Cpp.default.compilerPath": "/usr/bin/clang",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
   "telemetry.editStats.enabled": false,
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
-  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": false,
-  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.enablePreview": false,
-  "C_Cpp.default.compilerPath": "/usr/bin/clang"
+  "workbench.tree.indent": 18,
+  "workbench.tree.renderIndentGuides": "always"
 }
