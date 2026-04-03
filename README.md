@@ -8,12 +8,12 @@ Managed with 📦 [GNU Stow](https://www.gnu.org/software/stow/)
 * 👻 `ghostty` - Config for shiny new terminal
 * 💾 `git` - A gitconfig that works for me
 * 🔐 `gpg` - Points gpg at `pinentry-mac`
-* 👨‍💻 `nvim` - My Lazyvim config
+* 👨‍💻 `nvim` - My Lazyvim config for neovim
 * ✨ `opencode` - Config for my pet AI
 * 📦 `stow` - Make stow work everywhere
 * 📝 `vscode` - Not my favourite editor
 * 📄 `zed` - My favourite editor
-* 💻 `zsh` - My starship config
+* 💻 `zsh` - My starship and zsh config
 
 # 🔧 Dependencies
 
