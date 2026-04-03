@@ -1,45 +1,37 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "buffer_line_height": "comfortable",
-  "buffer_font_weight": 200.0,
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "agent": {
+    "default_model": {
+      "enable_thinking": false,
+      "model": "gemma3:12b",
+      "provider": "ollama",
+    },
+    "enabled": true,
+    "favorite_models": [],
+    "model_parameters": [],
+    "show_turn_stats": true,
+  },
   "agent_servers": {
     "opencode": {
       "type": "registry",
     },
   },
-  "terminal": {
-    "font_size": 14.0,
-    "font_family": "JetBrainsMono Nerd Font",
-  },
-  "agent": {
-    "show_turn_stats": true,
-    "enabled": true,
-    "default_model": {
-      "provider": "ollama",
-      "model": "gemma3:12b",
-      "enable_thinking": false,
-    },
-    "favorite_models": [],
-    "model_parameters": [],
-  },
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 14.0,
+  "buffer_font_weight": 200.0,
+  "buffer_line_height": "comfortable",
   "icon_theme": {
-    "mode": "dark",
-    "light": "Catppuccin Latte",
     "dark": "Catppuccin Macchiato",
+    "light": "Catppuccin Latte",
+    "mode": "dark",
+  },
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_size": 14.0,
+  },
+  "theme": {
+    "dark": "Catppuccin Macchiato",
+    "light": "Catppuccin Latte",
+    "mode": "dark",
   },
   "ui_font_size": 16,
-  "buffer_font_size": 14.0,
-  "theme": {
-    "mode": "dark",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Macchiato",
-  },
 }
