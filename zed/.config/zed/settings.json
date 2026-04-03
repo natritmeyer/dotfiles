@@ -33,6 +33,7 @@
   "buffer_font_size": 14.0,
   "buffer_font_weight": 200.0,
   "buffer_line_height": "comfortable",
+  "colorize_brackets": true,
   "current_line_highlight": "all",
   "ensure_final_newline_on_save": true,
   "format_on_save": "on",
@@ -58,6 +59,7 @@
     "enabled": false,
   },
   "project_panel": {
+    "entry_spacing": "comfortable",
     "git_status": true,
   },
   "remove_trailing_whitespace_on_save": true,
@@ -80,8 +82,12 @@
     "light": "Catppuccin Latte",
     "mode": "dark",
   },
+  "title_bar": {
+    "show_branch_icon": true,
+  },
   "toolbar": {
     "code_actions": true,
   },
   "ui_font_size": 16,
+  "use_auto_surround": true,
 }
