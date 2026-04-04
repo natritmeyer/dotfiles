@@ -9,6 +9,7 @@
     "html": true,
     "java": true,
     "lua": true,
+    "ruby": true,
     "sql": true,
     "toml": true,
     "xml": true,
