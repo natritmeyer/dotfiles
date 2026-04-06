@@ -11,13 +11,19 @@
 # theme = dark: Catppuccin Mocha, light: Catppuccin Latte
 theme = Catppuccin Mocha
 
+# font
+font-family = JetBrainsMono Nerd Font
+
 # cursor
 cursor-style = block
 cursor-style-blink = false
 
 # window
-window-inherit-working-directory = false
-# macos-titlebar-style = tabs
+window-decoration = auto
+macos-titlebar-style = native
+scrollbar = system
 
-# font
-font-family = JetBrainsMono Nerd Font
+# working directory
+working-directory = home
+window-inherit-working-directory = false
+tab-inherit-working-directory = false
