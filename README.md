@@ -4,16 +4,16 @@ Managed with 📦 [GNU Stow](https://www.gnu.org/software/stow/)
 
 # Packages
 
-* 🍺 `brew` - Install all the things
-* 👻 `ghostty` - Config for shiny new terminal
-* 💾 `git` - A gitconfig that works for me
-* 🔐 `gpg` - Points gpg at `pinentry-mac`
-* 👨‍💻 `nvim` - My Lazyvim config for neovim
-* ✨ `opencode` - Config for my pet AI
-* 📦 `stow` - Make stow work everywhere
-* 📝 `vscode` - Not my favourite editor
-* 📄 `zed` - My favourite editor
-* 💻 `zsh` - My starship and zsh config
+- 🍺 `brew` - Install all the things
+- 👻 `ghostty` - Config for shiny new terminal
+- 💾 `git` - A gitconfig that works for me
+- 🔐 `gpg` - Points gpg at `pinentry-mac`
+- 👨‍💻 `nvim` - My Lazyvim config for neovim
+- ✨ `opencode` - Config for my pet AI
+- 📦 `stow` - Make stow work everywhere
+- 📝 `vscode` - Not my favourite editor
+- 📄 `zed` - My favourite editor
+- 💻 `zsh` - My starship and zsh config
 
 # 🔧 Dependencies
 
@@ -52,3 +52,7 @@ First, install `stow`:
 ## 📦 Stow the rest of the packages
 
 1. `$ stow ghostty git gpg nvim vscode zed zsh`
+
+# Updating packages managed by brew
+
+`$ brew update && brew bundle -g && brew upgrade && brew upgrade --cask --greedy`
