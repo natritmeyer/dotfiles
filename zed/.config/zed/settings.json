@@ -33,6 +33,8 @@
     "vue": true,
     "xml": true,
   },
+  "auto_update": true,
+  "base_keymap": "JetBrains",
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_size": 14.0,
   "buffer_font_weight": 300.0,
@@ -42,11 +44,11 @@
   "ensure_final_newline_on_save": true,
   "format_on_save": "on",
   "git_panel": {
-    "show_count_badge": true,
-    "file_icons": true,
     "collapse_untracked_diff": false,
-    "tree_view": true,
+    "file_icons": true,
     "sort_by_path": true,
+    "show_count_badge": true,
+    "tree_view": true,
   },
   "gutter": {
     "line_numbers": true,
@@ -65,10 +67,14 @@
   "project_panel": {
     "entry_spacing": "comfortable",
     "git_status": true,
+    "git_status_indicator": true,
   },
   "remove_trailing_whitespace_on_save": true,
   "status_bar": {
     "line_endings_button": true,
+  },
+  "session": {
+    "trust_all_worktrees": true,
   },
   "scroll_beyond_last_line": "one_page",
   "tabs": {
