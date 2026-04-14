@@ -26,6 +26,7 @@
     "html": true,
     "java": true,
     "lua": true,
+    "make": true,
     "mermaid": true,
     "ruby": true,
     "sql": true,
