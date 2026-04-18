@@ -2,7 +2,23 @@ root = true
 
 [*]
 end_of_line = lf
+# Not just because git complains otherwise, but because POSIX.1-2024 (IEEE Std 1003.1-2024, 3.185 - https://pubs.opengroup.org/onlinepubs/9799919799/)
 insert_final_newline = true
 charset = utf-8
 indent_style = space
 indent_size = 2
+trim_trailing_whitespace = true
+
+[*.md]
+# Markdown uses trailing spaces for line breaks, so we disable trimming here.
+trim_trailing_whitespace = false
+
+[*.java]
+# Google Java Style (https://checkstyle.sourceforge.io/google_style.html)
+indent_size = 2
+indent_style = space
+continuation_indent_size = 4
+
+[*.json]
+indent_size = 2
+indent_style = space
