@@ -43,6 +43,9 @@
   "colorize_brackets": true,
   "current_line_highlight": "all",
   "ensure_final_newline_on_save": true,
+  "file_finder": {
+    "include_ignored": "all",
+  },
   "format_on_save": "on",
   "git_panel": {
     "collapse_untracked_diff": false,
@@ -67,6 +70,8 @@
   },
   "project_panel": {
     "entry_spacing": "comfortable",
+    "hide_gitignore": false,
+    "hide_hidden": false,
     "git_status": true,
     "git_status_indicator": true,
   },
