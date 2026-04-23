@@ -5,6 +5,7 @@
       "model": "gemma4:e4b",
       "provider": "ollama",
     },
+    "dock": "right",
     "enabled": true,
     "favorite_models": [],
     "model_parameters": [],
@@ -49,6 +50,7 @@
   "format_on_save": "on",
   "git_panel": {
     "collapse_untracked_diff": false,
+    "dock": "left",
     "file_icons": true,
     "sort_by_path": true,
     "show_count_badge": true,
@@ -65,15 +67,21 @@
   "minimap": {
     "show": "never",
   },
+  "outline_panel": {
+    "dock": "left",
+  },
   "preview_tabs": {
     "enabled": false,
   },
   "project_panel": {
+    "diagnostic_badges": true,
+    "dock": "left",
     "entry_spacing": "comfortable",
     "hide_gitignore": false,
     "hide_hidden": false,
     "git_status": true,
     "git_status_indicator": true,
+    "starts_open": true,
   },
   "remove_trailing_whitespace_on_save": true,
   "status_bar": {
@@ -99,7 +107,7 @@
     "mode": "dark",
   },
   "title_bar": {
-    "show_branch_icon": true,
+    "show_branch_status_icon": true,
   },
   "toolbar": {
     "code_actions": true,
