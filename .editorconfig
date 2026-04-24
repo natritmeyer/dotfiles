@@ -1,8 +1,13 @@
+# References:
+# POSIX.1-2024/IEEE Std 1003.1-2024 (https://pubs.opengroup.org/onlinepubs/9799919799/)
+# Google Java Style (https://checkstyle.sourceforge.io/google_style.html)
+
 root = true
 
 [*]
+# POSIX.1-2024, Section 5
 end_of_line = lf
-# Not just because git complains otherwise, but because POSIX.1-2024 (IEEE Std 1003.1-2024, 3.185 - https://pubs.opengroup.org/onlinepubs/9799919799/)
+# POSIX.1-2024, Section 3.185 (not just because git complains otherwise!)
 insert_final_newline = true
 charset = utf-8
 indent_style = space
@@ -13,8 +18,8 @@ trim_trailing_whitespace = true
 # Markdown uses trailing spaces for line breaks, so we disable trimming here.
 trim_trailing_whitespace = false
 
+# Google Java Style
 [*.java]
-# Google Java Style (https://checkstyle.sourceforge.io/google_style.html)
 indent_size = 2
 indent_style = space
 continuation_indent_size = 4
