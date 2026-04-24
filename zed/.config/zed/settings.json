@@ -64,6 +64,10 @@
     "light": "Catppuccin Latte",
     "mode": "dark",
   },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+  },
   "minimap": {
     "show": "never",
   },
@@ -83,14 +87,16 @@
     "git_status_indicator": true,
     "starts_open": true,
   },
+  "relative_line_numbers": "disabled",
   "remove_trailing_whitespace_on_save": true,
-  "status_bar": {
-    "line_endings_button": true,
-  },
+  "scroll_beyond_last_line": "one_page",
   "session": {
     "trust_all_worktrees": true,
   },
-  "scroll_beyond_last_line": "one_page",
+  "soft_wrap": "editor_width",
+  "status_bar": {
+    "line_endings_button": true,
+  },
   "tabs": {
     "file_icons": true,
     "git_status": true,
