@@ -1,15 +1,21 @@
 # References:
-# POSIX.1-2024/IEEE Std 1003.1-2024 (https://pubs.opengroup.org/onlinepubs/9799919799/)
+# POSIX.1-2024/IEEE Std 1003.1-2024, "IEEE/Open Group Standard for Information Technology--Portable Operating System Interface (POSIX™) Base Specifications, Issue 8" (https://pubs.opengroup.org/onlinepubs/9799919799/)
+# RFC 3629, "UTF-8, a transformation format of ISO 10646" (https://datatracker.ietf.org/doc/html/rfc3629)
+# JEP 400, "UTF-8 by Default" (https://openjdk.org/jeps/400)
+# PEP 8, "Style Guide for Python Code" (https://peps.python.org/pep-0008/)
+# RFC 4627, "The application/json Media Type for JavaScript Object Notation (JSON)" (https://datatracker.ietf.org/doc/html/rfc4627)
 # Google Java Style (https://checkstyle.sourceforge.io/google_style.html)
 
 root = true
 
 [*]
-# POSIX.1-2024, Section 5
+# POSIX.1-2024, Section 5 "File Format Notation"
 end_of_line = lf
-# POSIX.1-2024, Section 3.185 (not just because git complains otherwise!)
+# POSIX.1-2024, Section 3.185 "Definitions" (not just because git complains otherwise!)
 insert_final_newline = true
+# RFC 3629, JEP 400, PEP 8 ("Source File Encoding"), RFC 4627, amongst others
 charset = utf-8
+# PEP 8 ("Indentation")
 indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
