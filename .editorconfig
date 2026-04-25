@@ -15,7 +15,8 @@ end_of_line = lf
 insert_final_newline = true
 # RFC 3629, JEP 400, PEP 8 ("Source File Encoding"), RFC 4627, amongst others
 charset = utf-8
-# PEP 8 ("Indentation")
+
+# Sensible defaults
 indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
@@ -33,3 +34,6 @@ continuation_indent_size = 4
 [*.json]
 indent_style = space
 indent_size = 2
+
+[Makefile]
+indent_style = tab
