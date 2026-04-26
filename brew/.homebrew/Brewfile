@@ -52,7 +52,7 @@ brew "texinfo"
 # api clients
 
 cask "bruno"
-cask "postman"
+brew "httpie"
 
 # downloads
 
