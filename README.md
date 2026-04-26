@@ -11,8 +11,7 @@ Managed with 📦 [GNU Stow](https://www.gnu.org/software/stow/)
 - 👨‍💻 `nvim` - My Lazyvim config for neovim
 - ✨ `opencode` - Config for my pet AI
 - 📦 `stow` - Make stow work everywhere
-- 📝 `vscode` - Not my favourite editor
-- 📄 `zed` - My favourite editor
+- 📄 `zed` - My text editor of choice
 - 💻 `zsh` - My starship and zsh config
 
 # 🔧 Dependencies
