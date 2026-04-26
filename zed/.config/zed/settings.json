@@ -43,6 +43,11 @@
   "buffer_line_height": "comfortable",
   "colorize_brackets": true,
   "current_line_highlight": "all",
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
   "ensure_final_newline_on_save": true,
   "file_finder": {
     "include_ignored": "all",
@@ -67,6 +72,11 @@
   "inlay_hints": {
     "enabled": true,
     "show_type_hints": true,
+  },
+  "languages": {
+    "Make": {
+      "hard_tabs": true,
+    },
   },
   "minimap": {
     "show": "never",
