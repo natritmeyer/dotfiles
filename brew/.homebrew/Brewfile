@@ -45,6 +45,7 @@ cask "protonvpn"
 
 brew "autogen"
 brew "automake"
+brew "cmake"
 brew "gnutls"
 brew "readline"
 brew "texinfo"
