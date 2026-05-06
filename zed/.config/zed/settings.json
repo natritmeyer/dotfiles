@@ -10,6 +10,7 @@
     "favorite_models": [],
     "model_parameters": [],
     "show_turn_stats": true,
+    "thinking_display": "always_expanded",
   },
   "agent_servers": {
     "opencode": {
