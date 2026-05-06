@@ -1,142 +1,142 @@
 # basics
 
-brew "stow"
-brew "lsd"
-brew "htop"
-brew "btop"
-brew "git"
-brew "tree"
-brew "wget"
-brew "curl"
-brew "fastfetch"
+brew 'stow'
+brew 'lsd'
+brew 'htop'
+brew 'btop'
+brew 'git'
+brew 'tree'
+brew 'wget'
+brew 'curl'
+brew 'fastfetch'
 
 # git
 
-brew "git"
-brew "git-gui"
-brew "git-delta"
+brew 'git'
+brew 'git-gui'
+brew 'git-delta'
 
 
 # nvim and dependencies
 
-brew "nvim"
-brew "fd"
-brew "ripgrep"
-brew "fzf"
-brew "ast-grep"
-brew "luarocks"
+brew 'nvim'
+brew 'fd'
+brew 'ripgrep'
+brew 'fzf'
+brew 'ast-grep'
+brew 'luarocks'
 
 # infosec
 
-brew "nmap"
-brew "gnupg"
-brew "pinentry-mac"
-brew "gpgme"
-cask "gpg-suite-no-mail"
-cask "mitmproxy"
-brew "tcpdump"
-brew "wakeonlan"
-brew "aircrack-ng"
-cask "proton-mail"
-cask "proton-drive"
-cask "protonvpn"
+brew 'nmap'
+brew 'gnupg'
+brew 'pinentry-mac'
+brew 'gpgme'
+cask 'gpg-suite-no-mail'
+cask 'mitmproxy'
+brew 'tcpdump'
+brew 'wakeonlan'
+brew 'aircrack-ng'
+cask 'proton-mail'
+cask 'proton-drive'
+cask 'protonvpn'
 
 # autoreconf -> ./configure -> make -> make install
 
-brew "autogen"
-brew "automake"
-brew "cmake"
-brew "gnutls"
-brew "readline"
-brew "texinfo"
+brew 'autogen'
+brew 'automake'
+brew 'cmake'
+brew 'gnutls'
+brew 'readline'
+brew 'texinfo'
 
 # api clients
 
-cask "bruno"
-brew "httpie"
+cask 'bruno'
+brew 'httpie'
 
 # downloads
 
-cask "transmission"
+cask 'transmission'
 
 # GenAI
 
-cask "ollama-app"
-tap "anomalyco/tap"
-brew "anomalyco/tap/opencode"
-brew "llmfit"
+cask 'ollama-app'
+tap 'anomalyco/tap'
+brew 'anomalyco/tap/opencode'
+brew 'llmfit'
 
 # programming languages
 
 ## javascript
 
-brew "node"
-brew "jq"
+brew 'node'
+brew 'jq'
 
 ## python
 
-brew "pyenv"
-brew "python@3.14"
-cask "pycharm"
+brew 'pyenv'
+brew 'python@3.14'
+cask 'pycharm'
 
 ## rust
 
-brew "rust"
+brew 'rust'
 
 ## go
 
-brew "go"
+brew 'go'
 
 ## ruby
 
-brew "ruby"
+brew 'ruby'
 
 # virtualization
 
-brew "qemu"
-cask "virtualbox"
+brew 'qemu'
+cask 'virtualbox'
 
 # terminal
 
-cask "iterm2"
-cask "ghostty"
-brew "starship"
-cask "font-fira-code"
-cask "font-jetbrains-mono-nerd-font"
+cask 'iterm2'
+cask 'ghostty'
+brew 'starship'
+cask 'font-fira-code'
+cask 'font-jetbrains-mono-nerd-font'
 
 # apps
 
-cask "audacity"
-cask "calibre"
-cask "libreoffice"
-cask "steam"
-cask "transmission"
+cask 'audacity'
+cask 'calibre'
+cask 'libreoffice'
+cask 'steam'
+cask 'transmission'
 
 # browsers
 
-cask "duckduckgo"
-cask "google-chrome"
-cask "firefox"
+cask 'duckduckgo'
+cask 'google-chrome'
+cask 'firefox'
 
 # downloads
 
-brew "get_iplayer"
-brew "yt-dlp"
+brew 'get_iplayer'
+brew 'yt-dlp'
 
 # IDEs
 
 ## IntelliJ
 
-cask "intellij-idea-ce"
+cask 'intellij-idea-ce'
 
 ## xcode
 
-brew "xcodegen"
+brew 'xcodegen'
 
 # text editors
 
-cask "zed"
+cask 'zed'
 
 # databases
 
-cask "db-browser-for-sqlite"
+cask 'db-browser-for-sqlite'
