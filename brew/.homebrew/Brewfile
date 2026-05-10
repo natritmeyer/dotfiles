@@ -64,6 +64,7 @@ cask 'transmission'
 cask 'ollama-app'
 tap 'anomalyco/tap'
 brew 'anomalyco/tap/opencode'
+cask 'opencode-desktop'
 brew 'llmfit'
 
 # programming languages
