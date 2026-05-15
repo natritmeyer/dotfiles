@@ -126,7 +126,7 @@ brew 'yt-dlp'
 
 ## IntelliJ
 
-cask 'intellij-idea-ce'
+cask 'intellij-idea'
 
 ## xcode
 
