@@ -16,7 +16,6 @@ brew 'git'
 brew 'git-gui'
 brew 'git-delta'
 
-
 # nvim and dependencies
 
 brew 'nvim'
