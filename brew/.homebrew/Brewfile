@@ -37,11 +37,10 @@ cask 'mitmproxy'
 brew 'tcpdump'
 brew 'wakeonlan'
 brew 'aircrack-ng'
-cask 'proton-mail'
 cask 'proton-drive'
 cask 'protonvpn'
 
-# autoreconf -> ./configure -> make -> make install
+# make & co
 
 brew 'autogen'
 brew 'automake'
@@ -78,7 +77,6 @@ brew 'jq'
 
 brew 'pyenv'
 brew 'python@3.14'
-cask 'pycharm'
 
 ## rust
 
