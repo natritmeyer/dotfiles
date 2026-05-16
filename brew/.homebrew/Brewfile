@@ -10,24 +10,57 @@ brew 'wget'
 brew 'curl'
 brew 'fastfetch'
 
+# terminal
+
+cask 'ghostty'
+brew 'starship'
+cask 'font-fira-code'
+cask 'font-jetbrains-mono-nerd-font'
+
 # git
 
 brew 'git'
 brew 'git-gui'
 brew 'git-delta'
 
-# docker
+# IDEs & text editors
 
-cask 'docker-desktop'
+cask 'intellij-idea'
+cask 'zed'
 
-# nvim and dependencies
-
+## nvim and its dependencies
 brew 'nvim'
 brew 'fd'
 brew 'ripgrep'
 brew 'fzf'
 brew 'ast-grep'
 brew 'luarocks'
+
+# virtualization & containerization
+
+brew 'qemu'
+cask 'virtualbox'
+cask 'docker-desktop'
+
+# api clients
+
+cask 'bruno'
+brew 'httpie'
+
+# browsers
+
+cask 'duckduckgo'
+cask 'google-chrome'
+cask 'firefox'
+
+# make & co
+
+brew 'autogen'
+brew 'automake'
+brew 'cmake'
+brew 'gnutls'
+brew 'readline'
+brew 'texinfo'
 
 # infosec
 
@@ -43,23 +76,11 @@ brew 'aircrack-ng'
 cask 'proton-drive'
 cask 'protonvpn'
 
-# make & co
-
-brew 'autogen'
-brew 'automake'
-brew 'cmake'
-brew 'gnutls'
-brew 'readline'
-brew 'texinfo'
-
-# api clients
-
-cask 'bruno'
-brew 'httpie'
-
 # downloads
 
 cask 'transmission'
+brew 'get_iplayer'
+brew 'yt-dlp'
 
 # GenAI
 
@@ -69,44 +90,11 @@ brew 'anomalyco/tap/opencode'
 cask 'opencode-desktop'
 brew 'llmfit'
 
-# programming languages
+# databases
 
-## javascript
+cask 'db-browser-for-sqlite'
 
-brew 'node'
-brew 'jq'
-
-## python
-
-brew 'pyenv'
-brew 'python@3.14'
-
-## rust
-
-brew 'rust'
-
-## go
-
-brew 'go'
-
-## ruby
-
-brew 'ruby'
-
-# virtualization
-
-brew 'qemu'
-cask 'virtualbox'
-
-# terminal
-
-cask 'iterm2'
-cask 'ghostty'
-brew 'starship'
-cask 'font-fira-code'
-cask 'font-jetbrains-mono-nerd-font'
-
-# apps
+# other apps
 
 cask 'audacity'
 cask 'calibre'
@@ -114,31 +102,21 @@ cask 'libreoffice'
 cask 'steam'
 cask 'transmission'
 
-# browsers
+# programming languages
 
-cask 'duckduckgo'
-cask 'google-chrome'
-cask 'firefox'
+## javascript
+brew 'node'
+brew 'jq'
 
-# downloads
+## python
+brew 'pyenv'
+brew 'python@3.14'
 
-brew 'get_iplayer'
-brew 'yt-dlp'
+## rust
+brew 'rust'
 
-# IDEs
+## go
+brew 'go'
 
-## IntelliJ
-
-cask 'intellij-idea'
-
-## xcode
-
-brew 'xcodegen'
-
-# text editors
-
-cask 'zed'
-
-# databases
-
-cask 'db-browser-for-sqlite'
+## ruby
+brew 'ruby'
