@@ -16,6 +16,10 @@ brew 'git'
 brew 'git-gui'
 brew 'git-delta'
 
+# docker
+
+cask 'docker-desktop'
+
 # nvim and dependencies
 
 brew 'nvim'
