@@ -20,6 +20,7 @@ Install these first:
 
 1. [homebrew](https://brew.sh)
 1. [sdkman](https://sdkman.io)
+1. [nvm](https://nvm.sh)
 
 # 🔧 Installation
 
