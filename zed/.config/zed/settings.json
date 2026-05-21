@@ -45,6 +45,7 @@
   "cli_default_open_behavior": "new_window",
   "code_lens": "on",
   "colorize_brackets": true,
+  "completion_menu_item_kind": "symbol",
   "confirm_quit": true,
   "current_line_highlight": "all",
   "diagnostics": {
