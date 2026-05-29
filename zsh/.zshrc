@@ -11,6 +11,10 @@ alias ll='lsd -alF'
 
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
+# rust
+
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # nvm
 
 export NVM_DIR="$HOME/.nvm"

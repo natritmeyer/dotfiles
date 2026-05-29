@@ -21,6 +21,7 @@ Install these first:
 1. [homebrew](https://brew.sh)
 1. [sdkman](https://sdkman.io)
 1. [nvm](https://nvm.sh)
+1. [rust](https://rustup.rs)
 
 # 🔧 Installation
 
@@ -55,4 +56,4 @@ First, install `stow`:
 
 # Updating packages managed by brew
 
-`$ brew update && brew bundle -g && brew upgrade && brew upgrade --cask --greedy`
+`$ rustup update && brew update && brew bundle -g && brew upgrade && brew upgrade --cask --greedy`

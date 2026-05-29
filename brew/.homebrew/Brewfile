@@ -112,9 +112,6 @@ brew 'jq'
 brew 'pyenv'
 brew 'python@3.14'
 
-## rust
-brew 'rust'
-
 ## go
 brew 'go'
 
