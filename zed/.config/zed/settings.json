@@ -38,7 +38,7 @@
   },
   "auto_update": true,
   "base_keymap": "JetBrains",
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "JetBrainsMonoNL Nerd Font",
   "buffer_font_size": 14.0,
   "buffer_font_weight": 300.0,
   "buffer_line_height": "comfortable",
