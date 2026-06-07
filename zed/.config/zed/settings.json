@@ -61,6 +61,7 @@
   "file_finder": {
     "include_ignored": "all",
   },
+  "file_scan_exclusions": [],
   "format_on_save": "on",
   "git_panel": {
     "collapse_untracked_diff": false,
