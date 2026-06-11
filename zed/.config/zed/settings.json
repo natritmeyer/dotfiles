@@ -57,6 +57,7 @@
       "enabled": true,
     },
   },
+  "diff_view_style": "split",
   "ensure_final_newline_on_save": true,
   "file_finder": {
     "include_ignored": "all",
