@@ -85,8 +85,8 @@ brew 'yt-dlp'
 # GenAI
 
 cask 'ollama-app'
-tap 'anomalyco/tap'
-brew 'anomalyco/tap/opencode'
+tap 'anomalyco/tap', trusted: true
+brew 'anomalyco/tap/opencode', trusted: true
 cask 'opencode-desktop'
 brew 'llmfit'
 
