@@ -51,6 +51,7 @@ brew 'httpie'
 
 cask 'duckduckgo'
 cask 'google-chrome'
+cask 'ungoogled-chromium'
 cask 'firefox'
 
 # make & co
@@ -107,6 +108,7 @@ cask 'transmission'
 ## javascript
 brew 'node'
 brew 'jq'
+brew 'pnpm'
 
 ## python
 brew 'pyenv'
