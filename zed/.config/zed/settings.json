@@ -19,6 +19,7 @@
     },
   },
   "auto_install_extensions": {
+    "astro": true,
     "catppuccin": true,
     "catppuccin-icons": true,
     "cucumber": true,
