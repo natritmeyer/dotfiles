@@ -102,6 +102,7 @@ cask 'calibre'
 cask 'libreoffice'
 cask 'steam'
 cask 'transmission'
+cask 'netnewswire'
 
 # programming languages
 
