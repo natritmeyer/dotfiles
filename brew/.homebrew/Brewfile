@@ -85,6 +85,7 @@ brew 'yt-dlp'
 
 # GenAI
 
+brew 'llama.cpp'
 cask 'ollama-app'
 tap 'anomalyco/tap', trusted: true
 brew 'anomalyco/tap/opencode', trusted: true
