@@ -69,8 +69,8 @@
     "collapse_untracked_diff": false,
     "dock": "left",
     "file_icons": true,
-    "sort_by_path": true,
     "show_count_badge": true,
+    "sort_by": "path",
     "tree_view": true,
   },
   "go_to_definition_scroll_strategy": "top",
@@ -118,7 +118,11 @@
   },
   "soft_wrap": "editor_width",
   "status_bar": {
+    "active_encoding_button": "enabled",
+    "active_language_button": true,
+    "cursor_position_button": true,
     "line_endings_button": true,
+    "show_active_file": true,
   },
   "tabs": {
     "file_icons": true,
