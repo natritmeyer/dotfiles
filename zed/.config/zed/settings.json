@@ -65,6 +65,12 @@
   },
   "file_scan_exclusions": [],
   "format_on_save": "on",
+  "git": {
+    "inline_blame": {
+      "location": "inline",
+      "show_commit_summary": true,
+    },
+  },
   "git_panel": {
     "collapse_untracked_diff": false,
     "dock": "left",
