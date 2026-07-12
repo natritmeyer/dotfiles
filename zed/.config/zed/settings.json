@@ -39,7 +39,7 @@
     "xml": true,
   },
   "auto_update": true,
-  "base_keymap": "JetBrains",
+  "base_keymap": "VSCode",
   "buffer_font_family": "JetBrainsMonoNL Nerd Font",
   "buffer_font_features": {
     "calt": false,
