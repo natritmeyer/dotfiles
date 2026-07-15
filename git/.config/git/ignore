@@ -1,1 +1,25 @@
+# macOS
 .DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Vim/Neovim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+[._]*.un~
+*~
+Session.vim
+.netrwhist
+
+# JetBrains
+.idea/
+*.iws
+out/
+
+# VS Code
+.vscode/
+*.vsix
