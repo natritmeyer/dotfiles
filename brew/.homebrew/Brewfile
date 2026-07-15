@@ -19,7 +19,6 @@ cask 'font-jetbrains-mono-nerd-font'
 
 # git
 
-brew 'git'
 brew 'git-gui'
 brew 'git-delta'
 
@@ -102,7 +101,6 @@ cask 'audacity'
 cask 'calibre'
 cask 'libreoffice'
 cask 'steam'
-cask 'transmission'
 cask 'netnewswire'
 
 # programming languages
