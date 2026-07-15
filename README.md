@@ -2,7 +2,7 @@
 
 Managed with 📦 [GNU Stow](https://www.gnu.org/software/stow/)
 
-# Packages
+# 📦 Packages
 
 - 🍺 `brew` - Install all the things
 - 👻 `ghostty` - Config for shiny new terminal
@@ -36,24 +36,22 @@ First, install `stow`:
 1. `$ cd ~`
 1. `$ git clone https://github.com/natritmeyer/dotfiles.git`
 
-## 📦 Set up stow
+## 📦 Stow everything
 
 1. `$ cd dotfiles`
+1. `$ make stow`
+
+This will stow all packages and install brew dependencies. Alternatively, run the steps manually:
+
 1. `$ stow stow`
-
-## 📦 Stow the Brewfile
-
 1. `$ stow brew`
-
-## 🍺 Install components listed in the Brewfile
-
-1. `$ cd ~`
 1. `$ brew bundle -g`
+1. `$ stow ghostty git gpg nvim opencode zed zsh`
 
-## 📦 Stow the rest of the packages
+# 🔄 Updating packages managed by brew
 
-1. `$ stow ghostty git gpg nvim zed zsh`
+`$ make update`
 
-# Updating packages managed by brew
+Or run manually:
 
 `$ rustup update && brew update && brew bundle -g && brew upgrade && brew upgrade --cask --greedy`
