@@ -86,8 +86,7 @@ brew 'yt-dlp'
 
 brew 'llama.cpp'
 cask 'ollama-app'
-tap 'anomalyco/tap', trusted: true
-brew 'anomalyco/tap/opencode', trusted: true
+brew 'opencode'
 cask 'opencode-desktop'
 brew 'llmfit'
 
