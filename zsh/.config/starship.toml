@@ -1,5 +1,3 @@
-command_timeout = 60000
-
 [directory]
 truncation_length = 0
 
