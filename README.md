@@ -52,7 +52,7 @@ First, install `stow`:
 
 ## 📦 Stow the rest of the packages
 
-1. `$ stow ghostty git gpg nvim vscode zed zsh`
+1. `$ stow ghostty git gpg nvim zed zsh`
 
 # Updating packages managed by brew
 
