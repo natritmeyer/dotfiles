@@ -33,9 +33,6 @@
 [init]
   defaultBranch = main
 
-[safe]
-  directory = *
-
 [diff]
   algorithm = histogram
   colorMoved = default
