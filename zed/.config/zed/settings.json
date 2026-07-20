@@ -15,6 +15,11 @@
   },
   "agent_servers": {
     "opencode": {
+      "default_config_options": {
+        "mode": "plan",
+        "effort": "max",
+        "model": "opencode/big-pickle"
+      },
       "type": "registry",
     },
   },
