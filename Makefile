@@ -16,3 +16,5 @@ update:
 	@brew bundle -g
 	@brew upgrade
 	@brew upgrade --cask --greedy
+	@brew cleanup --prune=all
+	@brew doctor
