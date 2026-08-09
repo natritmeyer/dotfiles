@@ -44,7 +44,7 @@
     "xml": true,
   },
   "auto_update": true,
-  "base_keymap": "VSCode",
+  "base_keymap": "Zed",
   "buffer_font_family": "JetBrainsMonoNL Nerd Font",
   "buffer_font_features": {
     "calt": false,
