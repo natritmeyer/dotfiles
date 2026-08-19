@@ -14,7 +14,7 @@ update:
 	@rustup update
 	@brew update
 	@brew bundle -g
-	@brew upgrade
-	@brew upgrade --cask --greedy
+	@brew upgrade --yes
+	@brew upgrade --yes --cask --greedy
 	@brew cleanup --prune=all
 	@brew doctor
