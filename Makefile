@@ -13,7 +13,7 @@ stow:
 update:
 	@rustup update
 	@brew update
-	@brew bundle -g
+	@brew bundle -g -v
 	@brew upgrade --yes
 	@brew upgrade --yes --cask --greedy
 	@brew cleanup --prune=all
