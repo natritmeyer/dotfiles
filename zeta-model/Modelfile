@@ -1,0 +1,8 @@
+FROM ./zeta-2.1.Q4_K_M.gguf
+
+# Zed sends this stop token for zeta-2.1 (V0318 format).
+# NOTE: the "▁" characters are U+2581 "LOWER ONE EIGHTH BLOCK", not spaces.
+PARAMETER stop "<[end▁of▁sentence]>"
+
+# Set system parameters
+PARAMETER temperature 0.2

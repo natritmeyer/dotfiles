@@ -69,6 +69,15 @@
   "file_finder": {
     "include_ignored": "all",
   },
+  "edit_predictions": {
+    "provider": "ollama",
+    "ollama": {
+      "api_url": "http://localhost:11434",
+      "model": "zeta2.1",
+      "prompt_format": "zeta2_1",
+      "max_output_tokens": 512,
+    },
+  },
   "file_scan_exclusions": [],
   "format_on_save": "on",
   "git": {
@@ -128,6 +137,7 @@
   "session": {
     "trust_all_worktrees": true,
   },
+  "show_edit_predictions": true,
   "soft_wrap": "editor_width",
   "status_bar": {
     "active_encoding_button": "enabled",

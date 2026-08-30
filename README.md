@@ -13,6 +13,7 @@ Managed with 📦 [GNU Stow](https://www.gnu.org/software/stow/)
 - 📦 `stow` - Make stow work everywhere
 - 📄 `zed` - My text editor of choice
 - 💻 `zsh` - My starship and zsh config
+- 🤖 `zeta-model` - My local zeta model
 
 # 🔧 Dependencies
 
@@ -46,12 +47,8 @@ This will stow all packages and install brew dependencies. Alternatively, run th
 1. `$ stow stow`
 1. `$ stow brew`
 1. `$ brew bundle -g`
-1. `$ stow ghostty git gpg nvim opencode zed zsh`
+1. `$ stow ghostty git gpg nvim opencode zed zeta-model zsh`
 
 # 🔄 Updating packages managed by brew
 
 `$ make update`
-
-Or run manually:
-
-`$ rustup update && brew update && brew bundle -g && brew upgrade && brew upgrade --cask --greedy`
