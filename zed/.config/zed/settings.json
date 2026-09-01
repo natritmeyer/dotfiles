@@ -97,6 +97,9 @@
   "go_to_definition_scroll_strategy": "top",
   "gutter": {
     "line_numbers": true,
+    "git_gutter_width": {
+      "custom": 8,
+    },
   },
   "icon_theme": {
     "dark": "Catppuccin Mocha",
@@ -155,6 +158,7 @@
     "font_family": "JetBrainsMono Nerd Font",
     "font_size": 14.0,
     "font_weight": 300.0,
+    "starts_open": false,
   },
   "theme": {
     "dark": "Catppuccin Mocha",
