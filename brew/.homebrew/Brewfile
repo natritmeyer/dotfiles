@@ -52,6 +52,7 @@ cask 'duckduckgo'
 cask 'google-chrome'
 cask 'ungoogled-chromium'
 cask 'firefox'
+cask 'librewolf'
 
 # make & co
 
