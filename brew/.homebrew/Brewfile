@@ -79,6 +79,7 @@ cask 'protonvpn'
 
 # downloads
 
+cask 'homebrew-app'
 cask 'transmission'
 brew 'get_iplayer'
 brew 'yt-dlp'
