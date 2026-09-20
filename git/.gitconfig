@@ -2,6 +2,7 @@
   name = Nat Ritmeyer
   email = 217265+natritmeyer@users.noreply.github.com
   signingkey = DF5A4DC9CCAFC6D8
+  useConfigOnly = true
 
 [core]
   editor = nvim
