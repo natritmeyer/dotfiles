@@ -1,7 +1,6 @@
 // defaults: https://github.com/zed-industries/zed/blob/main/assets/settings/default.json
 {
   "agent": {
-    "sidebar_side": "right",
     "default_model": {
       "enable_thinking": false,
       "model": "gemma4:e4b",
@@ -12,6 +11,10 @@
     "favorite_models": [],
     "model_parameters": [],
     "show_turn_stats": true,
+    "threads_sidebar": {
+      "position": "right",
+      "auto_open": false,
+    },
     "thinking_display": "always_expanded",
   },
   "agent_servers": {
