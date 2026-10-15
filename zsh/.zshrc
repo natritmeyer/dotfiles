@@ -15,3 +15,7 @@ alias ll='lsd -alF'
 # sdkman
 
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# lm studio
+
+export PATH="$PATH:/Users/nat/.lmstudio/bin"
