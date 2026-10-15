@@ -92,6 +92,7 @@ cask 'ollama-app'
 brew 'opencode'
 cask 'opencode-desktop'
 brew 'llmfit'
+cask 'lm-studio'
 
 # databases
 
