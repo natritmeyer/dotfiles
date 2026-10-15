@@ -35,6 +35,7 @@
     "dockerfile": true,
     "docker-compose": false,
     "editorconfig": true,
+    "emmet": true,
     "git-firefly": true,
     "html": true,
     "java": true,
@@ -43,6 +44,7 @@
     "mermaid": true,
     "ruby": true,
     "sql": true,
+    "swift": true,
     "toml": true,
     "vue": true,
     "xml": true,
@@ -110,6 +112,10 @@
     "light": "Catppuccin Latte",
     "mode": "dark",
   },
+  "indent_guides": {
+    "background_coloring": "disabled",
+    "coloring": "indent_aware",
+  },
   "inlay_hints": {
     "enabled": true,
     "show_type_hints": true,
@@ -132,6 +138,7 @@
     "diagnostic_badges": true,
     "dock": "left",
     "entry_spacing": "comfortable",
+    "folder_indicator": "icon",
     "hide_gitignore": false,
     "hide_hidden": false,
     "git_status": true,
@@ -145,6 +152,7 @@
     "trust_all_worktrees": true,
   },
   "show_edit_predictions": true,
+  "show_whitespaces": "selection",
   "soft_wrap": "editor_width",
   "status_bar": {
     "active_encoding_button": "enabled",
