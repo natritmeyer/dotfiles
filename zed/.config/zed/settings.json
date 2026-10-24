@@ -43,6 +43,7 @@
     "make": true,
     "mermaid": true,
     "ruby": true,
+    "scm": true,
     "sql": true,
     "swift": true,
     "toml": true,
