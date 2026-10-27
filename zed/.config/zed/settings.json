@@ -2,10 +2,11 @@
 {
   "agent": {
     "default_model": {
-      "enable_thinking": false,
-      "model": "gemma4:e4b",
+      "enable_thinking": true,
+      "model": "qwen3:14b",
       "provider": "ollama",
     },
+    "default_profile": "write",
     "dock": "right",
     "enabled": true,
     "favorite_models": [],
