@@ -18,4 +18,4 @@ alias ll='lsd -alF'
 
 # lm studio
 
-export PATH="$PATH:/Users/nat/.lmstudio/bin"
+export PATH="$PATH:$HOME/.lmstudio/bin"
