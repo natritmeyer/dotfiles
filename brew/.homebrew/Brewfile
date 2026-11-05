@@ -28,6 +28,7 @@ cask 'intellij-idea'
 cask 'zed'
 
 ## nvim and its dependencies
+
 brew 'nvim'
 brew 'fd'
 brew 'ripgrep'
@@ -105,6 +106,7 @@ cask 'calibre'
 cask 'libreoffice'
 cask 'steam'
 cask 'netnewswire'
+cask 'anomalyco/tap/hex'
 
 # programming languages
 

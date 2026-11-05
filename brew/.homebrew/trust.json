@@ -4,5 +4,8 @@
   ],
   "trustedtaps": [
     "anomalyco/tap"
+  ],
+  "trustedcasks": [
+    "anomalyco/tap/hex"
   ]
 }
