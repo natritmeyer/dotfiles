@@ -77,6 +77,9 @@ brew 'wakeonlan'
 brew 'aircrack-ng'
 cask 'proton-drive'
 cask 'protonvpn'
+brew 'arp-scan'
+brew 'wireshark'
+cask 'wireshark-app'
 
 # downloads
 
