@@ -89,9 +89,22 @@
   "file_scan_exclusions": [],
   "format_on_save": "on",
   "git": {
+    "blame": {
+      "date_style": "absolute",
+      "show_avatar": true,
+    },
+    "branch_picker": {
+      "date_style": "absolute",
+      "show_author_name": true,
+    },
+    "date_format": "iso",
     "inline_blame": {
+      "date_style": "absolute",
       "location": "inline",
       "show_commit_summary": true,
+    },
+    "stash_picker": {
+      "date_style": "absolute",
     },
   },
   "git_panel": {
