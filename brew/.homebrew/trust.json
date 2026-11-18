@@ -3,7 +3,8 @@
     "anomalyco/tap/opencode"
   ],
   "trustedtaps": [
-    "anomalyco/tap"
+    "anomalyco/tap",
+    "natritmeyer/civterm"
   ],
   "trustedcasks": [
     "anomalyco/tap/hex"
